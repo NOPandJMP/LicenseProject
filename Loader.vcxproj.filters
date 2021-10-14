@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>sourse</Filter>
+    </ClCompile>
+    <ClCompile Include="hight_resolution_time.cpp">
+      <Filter>sourse</Filter>
+    </ClCompile>
+    <ClCompile Include="protection.cpp">
+      <Filter>sourse</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Getmac.h">
+      <Filter>sourse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_widgets.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProc.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hight_resolution_time.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="obfy-master\instr.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\Indexes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\Inline.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\Log.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\MetaFSM.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\MetaRandom.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\MetaString.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\ObfuscatedCall.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\ObfuscatedCallWithPredicate.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\Lib\Unroller.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaFactorial.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaFibonacci.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaString1.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaString2.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaString3.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obfuscate\DocCode\MetaString4.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Runtime Brocer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObRegisterCallbacks.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{cd9ababb-36c0-41b1-b66b-457d9511a823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{0ca2895a-f915-4c59-8291-c706c3a208c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sourse">
+      <UniqueIdentifier>{5018f908-d7e9-4ba5-b424-2c01c058bf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{43aaed4f-7d9f-4541-b955-8ffe60dafb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sourse\config">
+      <UniqueIdentifier>{71a9d0c0-bb6f-4e46-9161-e01530db4596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
